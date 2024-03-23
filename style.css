@@ -1,0 +1,146 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000b1b;
+    color: #d4d4d4;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #000b1b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Logo h1 {
+    font-size: 24px;
+    color: #ebebeb;
+    text-align: center; /* Tengahkan teks */
+    margin: 0; /* Hapus margin atas dan bawah */
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Tengahkan menu */
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ececec;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #ff6f61;
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #e05246;
+}
+
+/* Content Styles */
+.content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; /* Tengahkan konten */
+    align-items: flex-start;
+}
+
+.left {
+    flex: 1;
+    max-width: 600px; /* Batasi lebar konten */
+    padding: 0 20px; /* Tambahkan padding */
+}
+
+.right {
+    flex: 1;
+    max-width: 600px; /* Batasi lebar konten */
+    padding: 0 20px; /* Tambahkan padding */
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(133, 49, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #000b1b;
+    margin-bottom: 10px;
+}
+
+.flex h2 {
+    font-size: 20px;
+    color: #e5e5e5;
+    margin-bottom: 10px;
+    padding-left: 20px; /* Menambahkan padding kiri */
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Footer Styles */
+#contact {
+    background-color: #000622;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+#contact a {
+    color: #ff6f61;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #fff;
+}
